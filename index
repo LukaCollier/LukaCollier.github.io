@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Ton Nom – CV & Projets</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>Ton Nom</h1>
+  <p class="subtitle">
+    Étudiant ingénieur – Informatique / Algorithmique / Cybersécurité
+  </p>
+
+  <div class="links">
+    <a href="cv/cv.pdf" target="_blank">📄 CV (PDF)</a>
+    <a href="https://github.com/tonpseudo" target="_blank">🐙 GitHub</a>
+  </div>
+</header>
+
+<main>
+
+<section>
+  <h2>À propos</h2>
+  <p>
+    Étudiant ingénieur avec un fort intérêt pour l’algorithmique,
+    les structures de données, la programmation fonctionnelle
+    et la cybersécurité.
+  </p>
+</section>
+
+<section>
+  <h2>Projets informatiques</h2>
+
+  <article>
+    <h3>Le compte est bon! – OCaml</h3>
+    <p>
+      Implémentation complète du jeu avec génération aléatoire,
+      validation de solutions et résolution automatique optimisée.
+    </p>
+    <ul>
+      <li>Programmation fonctionnelle</li>
+      <li>Recherche d’état, mémoïsation</li>
+      <li>OCaml</li>
+    </ul>
+    <a href="https://github.com/tonpseudo/le-compte-est-bon" target="_blank">
+      Voir le projet →
+    </a>
+  </article>
+
+  <article>
+    <h3>Expressions régulières – Algorithme de Berry-Sethi</h3>
+    <p>
+      Construction d’un automate fini non déterministe à partir
+      d’expressions régulières.
+    </p>
+    <ul>
+      <li>Automates finis</li>
+      <li>Théorie des langages</li>
+      <li>OCaml</li>
+    </ul>
+    <a href="https://github.com/tonpseudo/regex-afnd" target="_blank">
+      Voir le projet →
+    </a>
+  </article>
+
+  <article>
+    <h3>Tarjan – Lowest Common Ancestor (offline)</h3>
+    <p>
+      Implémentation de l’algorithme de Tarjan avec analyse de complexité.
+    </p>
+    <ul>
+      <li>Graphes</li>
+      <li>Union-Find</li>
+      <li>OCaml</li>
+    </ul>
+    <a href="https://github.com/tonpseudo/tarjan-lca" target="_blank">
+      Voir le projet →
+    </a>
+  </article>
+
+</section>
+
+<section>
+  <h2>CV</h2>
+  <iframe src="cv/cv.pdf"></iframe>
+</section>
+
+</main>
+
+<footer>
+  <p>
+    © Ton Nom — 
+    <a href="mailto:ton.email@exemple.com">ton.email@exemple.com</a>
+  </p>
+</footer>
+
+</body>
+</html>
